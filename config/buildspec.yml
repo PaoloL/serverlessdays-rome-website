@@ -1,0 +1,16 @@
+version: 0.2
+
+phases:
+build:
+  commands:
+    - echo Building...
+artifacts:
+  secondary-artifacts:
+    artifact1:
+      files:
+        - directory/file
+      name: secondary-artifact-name-1
+    artifact2:
+      files:
+        - directory/file2
+      name: secondary-artifact-name-2
