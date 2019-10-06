@@ -56,13 +56,13 @@ header ul li {
 }
 header ul li.tickets {
     background: white;
-    color: #16CCBB;
+    color: #F7B500;
 }
 header ul li.tickets a {
     color: #1e213d;
 }
 header ul li.tickets a:hover{
-    color: #16CCBB;
+    color: #F7B500;
 }
 
 header a {
@@ -70,17 +70,17 @@ header a {
     text-decoration: none;
 }
 header a:hover {
-    color: #16CCBB;
+    color: #F7B500;
 }
 header a.current {
-    color: #16CCBB;
+    color: #F7B500;
 }
 
 section a {
     color: #666;
 }
 section a:hover {
-    color: #16CCBB;
+    color: #F7B500;
 }
 
 .darkbg a {
@@ -88,7 +88,7 @@ section a:hover {
 }
 
 a.bgblue {
-    background: #16CCBB;
+    background: #F7B500;
     color: white;
     text-decoration: none;
     padding: 7px;
