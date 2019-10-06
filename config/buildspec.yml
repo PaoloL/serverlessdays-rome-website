@@ -9,5 +9,7 @@ phases:
       - echo Building...
 artifacts:
   files:
-      - directory/file
-  name: artifact-name-1
+      - index.html
+      - assets/*
+      - speakers/*
+  name: website
