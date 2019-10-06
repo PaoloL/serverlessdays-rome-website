@@ -10,6 +10,6 @@ phases:
 artifacts:
   files:
       - index.html
-      - assets/*
+      - assets/**/*
       - speakers/*
   name: website
