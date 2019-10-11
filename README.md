@@ -1,6 +1,6 @@
 # Serverless Days Rome
 
-##Introduction
+## Introduction
 
 ServerlessDays are a family of events around the world focused on fostering a community around serverless technologies.
 Each ServerlessDay is unique, organised by locals and not run for profit. They are run according the following principles.
