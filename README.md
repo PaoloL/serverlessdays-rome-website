@@ -10,5 +10,5 @@ Each ServerlessDay is unique, organised by locals and not run for profit. They a
 
 ## CI/CD
 Two Branch
-- Branch = Developing, deploy on dngm0ojtrreqt.cloudfront.net and on dev.rome.serverlessdays.io
-- Branch = Master, deploy on d3gld1gabyx5x2.cloudfront.net and on rome.serverlessdays.io
+- Branch = `develop`, deploy on dngm0ojtrreqt.cloudfront.net and on dev.rome.serverlessdays.io
+- Branch = `master`, deploy on d3gld1gabyx5x2.cloudfront.net and on rome.serverlessdays.io
