@@ -15,4 +15,5 @@ artifacts:
       - news/*
       - privacy/*
       - static/*
+      - images/*
   name: website
