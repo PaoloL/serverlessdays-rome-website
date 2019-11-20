@@ -1,0 +1,18 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      java: corretto8
+  build:
+    commands:
+      - echo Building...
+artifacts:
+  files:
+      - index.html
+      - agenda/*
+      - coc/*
+      - news/*
+      - privacy/*
+      - static/*
+  name: website
