@@ -17,4 +17,5 @@ artifacts:
       - static/*
       - images/*
       - assets/*
+      - tickets/*
   name: website
