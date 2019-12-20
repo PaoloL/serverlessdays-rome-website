@@ -16,4 +16,5 @@ artifacts:
       - privacy/*
       - static/*
       - images/*
+      - assets/*
   name: website
