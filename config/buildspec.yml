@@ -19,4 +19,5 @@ artifacts:
       - images/speakers/*
       - assets/*
       - tickets/*
+      - speakers/*
   name: website
