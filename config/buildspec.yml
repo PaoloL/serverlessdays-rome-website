@@ -20,4 +20,5 @@ artifacts:
       - assets/*
       - tickets/*
       - speakers/*
+      - workshops/*
   name: website
