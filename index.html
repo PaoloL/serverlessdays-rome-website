@@ -785,6 +785,34 @@
                 max-width: 34em
             }
         }
+
+        .image-cropper {
+            width: 300px;
+            height: 300px;
+            position: relative;
+            overflow: hidden;
+            border-radius: 50%;
+        }
+
+        img {
+            display: inline;
+            margin: 0 auto;
+            height: 100%;
+            width: auto;
+        }
+
+        .wordwrap {
+            white-space: pre-wrap;
+            /* CSS3 */
+            white-space: -moz-pre-wrap;
+            /* Firefox */
+            white-space: -pre-wrap;
+            /* Opera <7 */
+            white-space: -o-pre-wrap;
+            /* Opera 7 */
+            word-wrap: break-word;
+            /* IE */
+        }
     </style>
 </head>
 
@@ -861,52 +889,169 @@
 </div>
 </div>
 -->
+    <section>
+        <div class="ph3 ph0-ns pt4 pt6-ns w-100 center secondaryColor secondaryBkg">
+            <div class="w-100 w-80-m w-70-l center tc tl-ns">
+                <h1 class="f1" style="font-size: 3rem;margin-left: 2em;text-align: left;">Speakers</h1>
+                <ul style="padding: 30px; list-style-type: none">
+                    <li style="padding: 50px">
+                        <div style="display: inline-block; vertical-align: top">
+                                <a href="/speakers/ara.html">
+                                    <img class="image-cropper" style="float: left; margin: 4px 10px 0px 0px; border: 1px solid #000000;" src="../images/speakers/yancui2.png" alt="Ara Pulido">
+                                </a>
+                                <div class="wordwrap">
+                                <p style="text-align: left" class="f2">Yan Cui</p>
+                                <p style="text-align: left" class="f4 i">Empowering businesses with serverless</p>
+                                <p style="text-align: left" class="">	
+Serverless technologies allow developers to go faster and do so much more with less. They allow businesses to innovate faster than ever possible before and the pay-per-use pricing model opens up a world of opportunities to improve cost efficiency. Cost optimization is no longer a guessing game, but a surgical operation that can target business areas with the most saving potential based on data. New business models based on pay-per-use will soon disrupt incumbents in established markets and create better value for customers. In this talk, we'll see how businesses around the world are using serverless technologies to drive their success and growth, and the lessons we can learn from them.</p>
+                            </div>
 
-    <div class="w-100 ph1 pv3 pa3-ns tl f4 secondaryColor secondaryBkg">
-        <div class="flex-ns mv3 mv4-l">
-            <div class="w-100 w-05-l dn db-l">
-            </div>
-            <div class="w-100 w-50-l ph3 ph0-ns tc tl-ns pb4-l">
-                <h2 class="f2 mv3">Keynote by Yan Cui</h2>
-                <div class="f5 lh-copy pr3-m">
-                    <div class="dt-row">
-                        <div class="dtc w-4 pa1 pa2-ns pt2 pt3-ns" style="text-align: center;">
-                            <img class="ba br-100 b--transparent w5" style="border-radius: 100% !important;" src="images/speakers/yancui.jpg"><img>
-                        </div>
-                    </div>
+                            </div>
+                    </li>
+                    <li style="padding: 50px">
+                        <div style="display: inline-block; vertical-align: top">
+                                <a href="/speakers/ara.html">
+                                    <img class="image-cropper" style="float: left; margin: 4px 10px 0px 0px; border: 1px solid #000000;" src="../images/speakers/gojko.jpg" alt="Ara Pulido">
+                                </a>
+                                <div class="wordwrap">
+                                <p style="text-align: left" class="f2">Gojko Adzic</p>
+                                <p style="text-align: left" class="f4 i">Five rules for super-responsive serverless apps</p>
+                                <p style="text-align: left" class="">Serverless platforms are built for throughput, not for latency. One of the key risks, and most common complains when moving to hosted function code services such as AWS Lambda, is that it could make request processing slower. This talk is a practical demo of five important architectural ideas to make request processing lightning fast with serverless deployments, based on authors experience building a document collaboration platform deployed on AWS Lambda since 2016. You will learn both how to make an application better for users, and how to save a lot of money on operational costs.</p>
+                            </div>
 
-                    <div class="dt-row">
-                        <div class="dtc w-4 pa1 pa2-ns pt2 pt3-ns" style="line-height: normal;">
-                            <p><b>Empowering businesses with serverless</b></p>
-                            <p>Serverless technologies allow developers to go faster and do so much more with less. They allow businesses to innovate faster than ever possible before and the pay-per-use pricing model opens up a world of opportunities to improve cost efficiency. Cost optimization is no longer a guessing game, but a surgical operation that can target business areas with the most saving potential based on data. New business models based on pay-per-use will soon disrupt incumbents in established markets and create better value for customers. In this talk, we'll see how businesses around the world are using serverless technologies to drive their success and growth, and the lessons we can learn from them.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="pt2 pt3-ns"></div>
+                            </div>
+                    </li>
+
+                    <li style="padding: 50px">
+                       <div style="display: inline-block; vertical-align: top">
+                                <a href="/speakers/ara.html">
+                                    <img class="image-cropper" style="float: left; margin: 4px 10px 0px 0px; border: 1px solid #000000;" src="../images/speakers/gunnargrosch.jpg" alt="Ara Pulido">
+                                </a>
+                                <div class="wordwrap">
+                                <p style="text-align: left" class="f2">Gunnar Grosch</p>
+                                <p style="text-align: left" class="f4 i">Observability for Serverless Workloads</p>
+                                <p style="text-align: left" class="">Having a good observability strategy has become critical for companies running applications in production with a microservices architecture. But what about serverless functions? What are the differences when it comes to monitoring, logging, and tracing for serverless workloads? How can we make sure we are getting the right data from our systems without compromising the size and performance of our functions? <br>In this session, we will introduce the topic of observability for a serverless architecture. We will explain the different tradeoffs that we should consider and the data points we should focus on to better understand our serverless applications. We will demonstrate this using an image recognition application that uses both VMs and functions in a true hybrid environment.</p>
+                            </div>
+
+                            </div>
+                    </li>
+                    <li style="padding: 50px">
+                            <div style="display: inline-block; vertical-align: top">
+                                <a href="/speakers/ara.html">
+                                    <img class="image-cropper" style="float: left; margin: 4px 10px 0px 0px; border: 1px solid #000000;" src="../images/speakers/ranribenzaft.jpg" alt="Ara Pulido">
+                                </a>
+                                <div class="wordwrap">
+                                <p style="text-align: left" class="f2">Ran Ribenzaft</p>
+                                <p style="text-align: left" class="f4 i">Performing chaos in a serverless world</p>
+                                <p style="text-align: left" class="">Chaos engineering is the practice of hypothesis testing through planned experiments to gain a better understanding of a system’s behavior. The principles of chaos engineering have been around for years, and we have now reached the point where chaos engineering has gone from just being a buzzword and practice used by a few large organizations in very specific fields, to it being put in to use by companies of all sizes and industries. Planning and performing chaos experiments on traditional infrastructure with virtual machines and microservices using containers has been battle-tested by many large organizations, but serverless functions and managed services present different failure modes and level of abstraction. In this talk we focus on how to apply the principles of chaos engineering to serverless, both for serverless functions and managed services. This covers how hypothesis can be formed to fit serverless, what the experiments can achieve and how to practically perform them. With tools for chaos engineering, both commercial and open-source, getting more mature most of them still have focus primarily on virtual machines and containers. We’ll look at what tools are out there to help with chaos experiments for serverless and managed services, but also how you can build your own. Join as we move from talking about the principles to performing real chaos in a serverless world!</p>
+                            </div>
+
+                            </div>
+                            
+                    </li>
+                    <li style="padding: 50px">
+                        <div style="display: inline-block; vertical-align: top">
+                                <a href="/speakers/ara.html">
+                                    <img class="image-cropper" style="float: left; margin: 4px 10px 0px 0px; border: 1px solid #000000;" src="../images/speakers/arapulido.jpg" alt="Ara Pulido">
+                                </a>
+                                <div class="wordwrap">
+                                <p style="text-align: left" class="f2">Ara Pulido</p>
+                                <p style="text-align: left" class="f4 i">Observability for Serverless Workloads</p>
+                                <p style="text-align: left" class="">Having a good observability strategy has become critical for companies running applications in production with a microservices architecture. But what about serverless functions? What are the differences when it comes to monitoring, logging, and tracing for serverless workloads? How can we make sure we are getting the right data from our systems without compromising the size and performance of our functions? <br>In this session, we will introduce the topic of observability for a serverless architecture. We will explain the different tradeoffs that we should consider and the data points we should focus on to better understand our serverless applications. We will demonstrate this using an image recognition application that uses both VMs and functions in a true hybrid environment.</p>
+                            </div>
+
+                            </div></li>
+                </ul>
             </div>
-            <div class="w-100 w-10-l dn db-l"></div>
+            <div class="cf">
+            </div>
         </div>
-    </div>
+    </section>
+<!--
+    <section>
+        <div class="w-100 ph1 pv3 pa3-ns tl f4 secondaryColor secondaryBkg">
+            <div class="flex-ns mv3 mv4-l">
+                <div class="w-100 w-05-l dn db-l">
+                </div>
+                <div class="w-100 w-50-l ph3 ph0-ns tc tl-ns pb4-l">
+                    <h2 class="f2 mv3">Keynote by Yan Cui</h2>
+                    <div class="f5 lh-copy pr3-m">
+                        <div class="dt-row">
+                            <div class="dtc w-4 pa1 pa2-ns pt2 pt3-ns" style="text-align: center;">
+                                <img class="ba br-100 b--transparent w5" style="border-radius: 100% !important;" src="images/speakers/yancui.jpg"><img>
+                            </div>
+                        </div>
 
+                        <div class="dt-row">
+                            <div class="dtc w-4 pa1 pa2-ns pt2 pt3-ns" style="line-height: normal;">
+                                <p><b>Empowering businesses with serverless</b></p>
+                                <p>Serverless technologies allow developers to go faster and do so much more with less. They allow businesses to innovate faster than ever possible before and the pay-per-use pricing model opens up a world of opportunities to improve cost efficiency. Cost optimization is no longer a guessing game, but a surgical operation that can target business areas with the most saving potential based on data. New business models based on pay-per-use will soon disrupt incumbents in established markets and create better value for customers. In this talk, we'll see how businesses around the world are using serverless technologies to drive their success and growth, and the lessons we can learn from them.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pt2 pt3-ns"></div>
+                </div>
+                <div class="w-100 w-10-l dn db-l"></div>
+            </div>
+        </div>
+    </section>
+-->
     <section>
         <style type="text/css">
-* {margin: 0; padding: 0;}
-#container {height: 100%; width:100%; font-size: 0; margin: 50px; padding: 50px}
-#left, #middle, #right {display: inline-block; *display: inline; zoom: 1; vertical-align: top; font-size: 12px;}
-#left {width: 33%; margin-bottom: 16px}
-#middle {width: 33%;margin-bottom: 16px}
-#right {width: 33%;margin-bottom: 16px}
-</style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+            #container {
+                height: 100%;
+                width: 100%;
+                font-size: 0;
+                margin: 50px;
+                padding: 50px
+            }
+
+            #left,
+            #middle,
+            #right {
+                display: inline-block;
+                *display: inline;
+                zoom: 1;
+                vertical-align: top;
+                font-size: 12px;
+            }
+
+            #left {
+                width: 35%;
+                margin-bottom: 16px
+            }
+
+            #middle {
+                width: 25%;
+                margin-bottom: 16px
+            }
+
+            #right {
+                width: 30%;
+                margin-bottom: 16px
+            }
+        </style>
         <div id="container">
-        <div id="left"><a href="https://www.avanscoperta.it/it/"><img style="max-width: 50%; filter: invert()" src="https://www.avanscoperta.it/wp-content/themes/avanscoperta/media/img/logo_avanscoperta_text@2x.png"><img></a><div>
-                        <p><b>Official Media Sponsor</b></p>
-                    </div></div>
-        <div id="middle"><a href="https://epsagon.com/"><img style="max-height: 100%;" src="https://epsagon.com/wp-content/uploads/2019/11/group-35-1.png"><img></a><div>
-                        <p><b>Supporter Sponsor</b></p>
-                    </div></div>
-        <div id="right"><a href="https://www.thundra.io/"><img style="max-width:50%;" src="images/Thundra-main-blue-trans_(5).png"><img></a><div>
-                        <p><b>Community Sponsor</b></p>
-                    </div></div>
+            <div id="left"><a href="https://www.avanscoperta.it/it/"><img style=" filter: invert()" src="https://www.avanscoperta.it/wp-content/themes/avanscoperta/media/img/logo_avanscoperta_text@2x.png"><img></a>
+                <div>
+                    <p><b class="f4">Official Media Sponsor</b></p>
+                </div>
+            </div>
+            <div id="middle"><a href="https://epsagon.com/"><img style="margin-bottom: 32px;" src="https://epsagon.com/wp-content/uploads/2019/11/group-35-1.png"><img></a>
+                <div>
+                    <p><b class="f4">Supporter Sponsor</b></p>
+                </div>
+            </div>
+            <div id="right"><a href="https://www.thundra.io/"><img style="margin-bottom: 56px;" src="https://www.thundra.io/hubfs/Thundra%20Logo/thundra-logo-white-v9.png"><img></a>
+                <div>
+                    <p><b class="f4">Community Sponsor</b></p>
+                </div>
+            </div>
         </div>
     </section>
     <section>
@@ -926,6 +1071,4 @@
     </script>
     <div id="footer_d"></div>
     <!-- FOOTER ENDS -->
-</body>
-
-</html>
+</body></html>
